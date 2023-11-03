@@ -1,0 +1,39 @@
+@media screen and (max-width:480px){
+  #menuContent {
+    width: 100vw;
+    height: 100%;
+    background-position: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #menuContent > h1{
+    font-size: 2.5em;
+    width: 100%;
+    padding: 2em 1em;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+  }
+
+  #section-main__content-cards {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1em;
+    background-color: chartreuse;
+  }
+
+}
+
+
+
+#section-main__content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.cards__section-content {
+    margin: 0em 1em;
+}

@@ -1,0 +1,18 @@
+
+#noticy-history {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+a{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: rgb(193, 193, 193);
+}
+
+#seta-form {
+  color: red;
+  font-weight: bold;
+}

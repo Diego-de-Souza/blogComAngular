@@ -1,0 +1,63 @@
+
+a{
+  text-decoration: none;
+}
+
+#section-image{
+  display: flex;
+  flex-direction: column;
+  height: 40vw;
+  background-image: url('https://vocesabianime.com/wp-content/uploads/2021/01/autor-de-my-hero-academia.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  justify-content: space-between;
+  margin: 0 2em;
+}
+
+#section-image__locale{
+  display: block;
+  color: rgb(109, 109, 109);
+  padding: 20px 0;
+  margin-left: 20px;
+  border-bottom: 2px solid red;
+  width: 30%;
+}
+
+#section-image__description{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+#section-image__secundarie{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#section-image__circle{
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 5px;
+  margin-right: 0.5em;
+}
+
+#section-image__secundarie h3{
+  color: red;
+}
+
+#section-image__description h1{
+  color: rgb(240, 240, 240);
+  font-size: 3em;
+  width: 70%;
+  text-align: center;
+  text-shadow:1px 1px 2px rgb(58, 58, 58);
+}
+
+#section-image__description > p{
+  color: rgb(109, 109, 109);
+}

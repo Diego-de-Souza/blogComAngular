@@ -1,0 +1,81 @@
+@media screen and (max-width:480px) {
+  #container-header {
+    width: 100vw;
+    height: 100%;
+    background-position: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #container-area-noticy-main{
+    display: block;
+    flex-direction: column;
+    width: 100vw;
+    margin: 4rem 0px 0px 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container-area-noticy-main__article {
+      width: 100vw;
+      margin: 0px;
+  }
+
+  .responsive{
+    display: none;
+  }
+
+  #container-noticy{
+    flex-direction: column;
+    padding-right:0px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #container__one-section{
+    flex-direction: column;
+    margin: 1em 2em;
+  }
+
+  #one-section__first {
+    width: 100%;
+  }
+
+  .topics{
+    margin-bottom: 1em;
+  }
+
+  #one-section__second {
+    width: 100%;
+  }
+
+  #one-section__third{
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  #section_cards_vertical__container{
+    margin: 2em 0;
+    background-image: url('../../../assets/imagens/jujutsu_kaisen_megumi_vs_sukuna_by_haruhi003_dehmyhn-fullview.jpg');
+    background-repeat: space;
+    background-attachment: inherit;
+    background-size: 100%;
+  }
+
+  #section_cards_vertical__cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0;
+    align-items: center;
+  }
+
+  #section_cards_vertical__title > h3 {
+    font-size: 1em;
+  }
+
+  #section_cards_vertical__title > a {
+    font-size: 1em;
+  }
+}
+

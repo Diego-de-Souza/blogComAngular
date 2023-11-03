@@ -1,0 +1,50 @@
+@media screen and (max-width:480px){
+  .fieldset-border {
+    border: 0.3em groove rgb(255, 0, 0) !important;
+    padding: 0 1.4em 1.4em 0% !important;
+    margin: 0 0.5em 1.5em 0.5em !important;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../assets/imagens/frase_do_dia_aspas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  }
+
+  #container__quoteDay{
+    margin: 0px;
+  }
+
+  .fieldset-border .legend-border {
+    font-size: 0.8em !important;
+    text-align: center !important;
+    width: 40%;
+    padding: 0 1em;
+    border-bottom: none;
+  }
+
+  #fraseDoDia{
+    font-size: 2em;
+  }
+
+  #info-data-article{
+    font-size: 0.8em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+#info-data-article p{
+  color: rgb(197, 193, 193);
+  padding-right: 20px;
+}
+

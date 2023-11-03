@@ -1,0 +1,26 @@
+
+#section-footer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+#icons-footer {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 1.5em;
+}
+
+#icons-footer > a >img{
+  display: flex;
+  flex-direction: row;
+  padding: 0px 1em;
+}
+
+p{
+  color: rgb(193, 193, 193);
+  margin: 1.5em;
+}

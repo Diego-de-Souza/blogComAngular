@@ -1,0 +1,54 @@
+
+#aside-list__menu{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  background-color: rgba(200, 195, 195, 0.521);
+  cursor: pointer;
+}
+
+#aside-list__menu > li{
+  display: flex;
+  font-weight: 600;
+  font-size: 0.7em;
+  padding: 1em 1em 1em 0.5em;
+}
+
+hr{
+  height: 0.5em;
+}
+
+.aside-list__item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.4em;
+  margin-bottom: 1em;
+}
+
+.aside-list__item > figure > img {
+  display: block;
+  width: 4em;
+  height: 4em;
+}
+
+
+
+.aside-list__info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5em;
+}
+
+.aside-list__info > h3{
+  font-size: 0.9em;
+}
+
+.aside-list__info > p{
+  font-size: 0.6em;
+  color: rgb(109, 109, 109);
+}
+
+
+
+

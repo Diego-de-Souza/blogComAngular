@@ -1,0 +1,32 @@
+@media screen and (max-width: 480px) {
+  #noticy-article-main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 1em;
+  }
+
+  .noticy-article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.8em 0.5em 0 0.5em;
+    width: 100%;
+  }
+
+  .noticy-article img {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    object-fit:cover;
+  }
+
+  .noticy-article-text p {
+    font-size: 0.7em;
+  }
+
+  .noticy-article-text article{
+    font-size: 1.2em;
+  }
+}
+

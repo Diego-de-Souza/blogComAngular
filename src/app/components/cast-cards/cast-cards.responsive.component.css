@@ -1,0 +1,72 @@
+@media screen and (max-width:480px){
+  #section-cards-vertical__container {
+    width: 100%;
+  }
+
+  .card-vertical{
+    display: flex;
+    flex-direction: column;
+    width: 18em;
+    border-radius: 20px 10px;
+    background-color: rgba(127, 24, 24, 0.676);
+    border-radius: 10em 2em 0em 0em ;
+  }
+}
+
+
+
+.selecion-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h4{
+  font-size: 1.5em;
+  color: red;
+  padding-bottom: 0.6em;
+}
+
+.selecion-cards > a {
+  color: red;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+hr{
+  height: 0.5em;
+  background-color: rgb(64, 64, 64);
+  margin-bottom: 0.5em;
+}
+
+#section-cards-vertical__cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-vertical{
+  display: flex;
+  flex-direction: column;
+  width: 18em;
+  border-radius: 20px 10px;
+  background-color: rgba(0, 0, 0, 0.676);
+  border-radius: 10em 2em 0em 0em ;
+}
+
+.img_cards-vertical > img{
+  display: block;
+  width: 100%;
+  height: 400px;
+  border-radius: 10em 2em;
+}
+
+.card-vertical > h3{
+  font-size: 2em;
+  padding: 0.3em 0px;
+}
+
+.card-vertical > p{
+  text-align: justify;
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(86, 84, 84);
+  color:  rgb(197, 193, 193);
+  align-items: center;
+  padding: 0 50px;
+}
+
+h2{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+figure{
+  background-color: rgba(80, 80, 80, 0.367);
+}

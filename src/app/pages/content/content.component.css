@@ -1,0 +1,51 @@
+
+
+#menuContent{
+  height: 100vh;
+  background-image: url('../../../assets/imagens/jujutsu_kaisen___itadori_ft_sukuna_wallpaper_by_knotshoxtm_deki0x2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#menuContent > h1{
+  color: rgb(193, 193, 193);
+  font-size: 4em;
+  width: 100%;
+  padding: 2em 1em;
+  text-shadow: 1px 1px 3px black;
+  text-align: center;
+}
+
+#section-main__content {
+  display: flex;
+  flex-direction: column;
+}
+
+#section-main__content-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 1.5em;
+  background-image: url('../../../assets/imagens/satoru_gojo__by_ertugartss_dfhes48-pre.jpg');
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#section-main__content > h1{
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 1em 0 0 0;
+  font-size: 3em;
+  color: rgb(193, 193, 193);
+  padding: 1em;
+
+  background-color:black ;
+}
+
+.cards__section-content {
+    margin: 0em 1em;
+}
+

@@ -1,0 +1,25 @@
+@media screen and (max-width: 480px){
+  #menu-header {
+    padding: 0 0.2em;
+  }
+
+  h2{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 25%;
+  }
+
+  figure{
+    width: 50%;
+    height: 20%;
+  }
+
+  figure > img{
+    width:100%;
+    height: 100%;
+  }
+}
+
+
+
+

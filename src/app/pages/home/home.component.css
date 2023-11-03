@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+#container-header {
+  height: 100vh;
+  background-image: url('../../../assets/imagens/ryomen_sukuna_wallpaper_by_mizoresyo_des1tf7.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#container-area-noticy-main{
+  display: flex;
+  flex-direction: row;
+  margin: 45px 50px;
+  justify-content: space-between;
+}
+
+#container-noticy{
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  padding-right: 50px;
+}
+
+#container__one-section{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 50px 0 50px;
+}
+
+#one-section__first {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.topics{
+  margin-bottom: 2em;
+}
+
+#one-section__second {
+  width: 50%;
+}
+#one-section__third{
+  width: 25%;
+}
+
+.responsive{
+  display: flex;
+  width: 30%;
+}
+
+#section_cards_vertical__container {
+  margin: 2em 0;
+  background-image: url('../../../assets/imagens/jujutsu_kaisen_megumi_vs_sukuna_by_haruhi003_dehmyhn-fullview.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+
+}
+
+#section_cards_vertical__title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 1em 50px;
+  justify-content: space-between;
+  border-bottom: 0.5em solid rgb(193, 193, 193);
+  background-color: black;
+}
+
+#section_cards_vertical__title > h3 {
+  font-size: 2em;
+  text-transform: uppercase;
+  color: rgb(193, 193, 193);
+}
+
+#section_cards_vertical__title > a {
+  text-decoration: none;
+  font-size: 2em;
+  color: red;
+  font-weight: bold;
+}
+
+#section_cards_vertical__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 50px;
+}

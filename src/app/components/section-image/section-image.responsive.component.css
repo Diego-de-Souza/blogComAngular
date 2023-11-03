@@ -1,0 +1,30 @@
+@media screen and (max-width: 480px){
+  #section-image{
+    height: 80vw;
+    margin: 0px;
+  }
+
+  #section-image__locale{
+    padding: 0.3em 0;
+    margin-left: 2em;
+    width: 20%;
+    font-size: 0.6em;
+  }
+
+  #section-image__secundarie{
+    font-size: 1em;
+  }
+
+  #section-image__description h1{
+    font-size: 1.6em;
+    width: 70%;
+    text-align: center;
+    text-shadow:1px 1px 2px rgb(58, 58, 58);
+  }
+
+  #section-image__description > p{
+    font-size: 0.8em;
+  }
+}
+
+

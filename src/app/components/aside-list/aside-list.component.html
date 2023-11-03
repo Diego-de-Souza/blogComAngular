@@ -1,0 +1,155 @@
+
+<aside>
+    <menu id="menu-aside">
+      <ul id="aside-list__menu">
+        <li (click)="openArticle('first')" [ngStyle]="{'border-bottom': inlineNewsLast}">LAST NEWS</li>
+        <li (click)="openArticle('second')" [ngStyle]="{'border-bottom': inlinePopular}">POPULAR</li>
+        <li (click)="openArticle('third')" [ngStyle]="{'border-bottom': inlineHottopic}">HOT TOPIC</li>
+      </ul>
+    </menu>
+    <hr>
+    <section>
+      <div *ngIf="enterArticle=='default'">
+        <article class="aside-list__item">
+          <figure>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c9fd1ff7-5c35-42fc-bbec-fa97260b491c/defpxcz-efacb32a-e334-408c-9b1f-03700b54ad31.png/v1/fill/w_1019,h_784,strp/megumi_and_toji_fushiguro_by_rdxscythe_defpxcz-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTg1IiwicGF0aCI6IlwvZlwvYzlmZDFmZjctNWMzNS00MmZjLWJiZWMtZmE5NzI2MGI0OTFjXC9kZWZweGN6LWVmYWNiMzJhLWUzMzQtNDA4Yy05YjFmLTAzNzAwYjU0YWQzMS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.sSaxvctRJIQNh2ESyln3gniMeltdLyaKg9uGHuaqmuE" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Jujutsu Kaisen manga may end within a year</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6b34773a-3364-4bde-924e-6d4e9258a8c4/deckzu8-b89a2ec5-6e5f-46f7-aba6-fb920f4e2d39.png/v1/fill/w_816,h_979,strp/jujutsu_kaisen_render_by_nanavichan_deckzu8-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUzNiIsInBhdGgiOiJcL2ZcLzZiMzQ3NzNhLTMzNjQtNGJkZS05MjRlLTZkNGU5MjU4YThjNFwvZGVja3p1OC1iODlhMmVjNS02ZTVmLTQ2ZjctYWJhNi1mYjkyMGY0ZTJkMzkucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ZC5KdUsaD7dOZL-1JA-2Vw2rQVYMMxl9bbTDarhKItM" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Season 2 of Jujutsu Kaisen arrives in July 2023, previews teaser</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2022/09/jujutsu_1__j12026w0-scaled.jpg" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Second season of Jujutsu Kaisen wins new posters</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b81da526-3809-4d71-83f8-4c00b3c16da9/dew245t-62226a82-0c7a-4384-852c-5336cf873a3a.png/v1/fill/w_1063,h_752,strp/yuta_okkotsu__jujutsu_kaisen__render__17_by_xxxcry_dew245t-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODI3IiwicGF0aCI6IlwvZlwvYjgxZGE1MjYtMzgwOS00ZDcxLTgzZjgtNGMwMGIzYzE2ZGE5XC9kZXcyNDV0LTYyMjI2YTgyLTBjN2EtNDM4NC04NTJjLTUzMzZjZjg3M2EzYS5wbmciLCJ3aWR0aCI6Ijw9MTE2OSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.j1BtcXXgnd0t7i4fpLQi3zBXr72r59u4Hj9aEksd2Cg" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Movie Jujutsu Kaisen 0 is available on Crunchyroll</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3003bbb0-8f61-4929-8bfd-306e974e0947/debk1ao-94649935-fea1-4dd6-9db6-d5184b8b20f7.png/v1/fill/w_1280,h_1773,strp/render__57_by_nukiel_debk1ao-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTc3MyIsInBhdGgiOiJcL2ZcLzMwMDNiYmIwLThmNjEtNDkyOS04YmZkLTMwNmU5NzRlMDk0N1wvZGViazFhby05NDY0OTkzNS1mZWExLTRkZDYtOWRiNi1kNTE4NGI4YjIwZjcucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.VvxK7FITr6VqWeg-gb0QIpqrHeCOwoXLg77mVj4EDK0" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Jujutsu Kaisen: Season 2 gets synopsis</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+      </div>
+      <div *ngIf="enterArticle=='popular'">
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Artigo 1 popular</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Artigo 2 popular</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Artigo 3 popular</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Artigo 4 popular</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>Artigo 5 popular</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+      </div>
+      <div *ngIf="enterArticle=='hottopic'">
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>3°subtitulo de uma noticia, um exemplo de como pode ficar, aqui deve ser tesxto dinamico</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>3°subtitulo de uma noticia, um exemplo de como pode ficar, aqui deve ser tesxto dinamico</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>3°subtitulo de uma noticia, um exemplo de como pode ficar, aqui deve ser tesxto dinamico</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>3°subtitulo de uma noticia, um exemplo de como pode ficar, aqui deve ser tesxto dinamico</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+        <article class="aside-list__item">
+          <figure>
+            <img src="../../../assets/imagens/img_default.png" alt="imagem padrão">
+          </figure>
+          <div class="aside-list__info">
+            <h3>3°subtitulo de uma noticia, um exemplo de como pode ficar, aqui deve ser tesxto dinamico</h3>
+            <p>25 December by <b style="color:blue;">Folha de São Paulo</b></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+</aside>

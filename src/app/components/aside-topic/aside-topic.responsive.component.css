@@ -1,0 +1,17 @@
+@media screen and(max-width:480px){
+  #container__section-aside-topic{
+    width: 100%;
+  }
+}
+
+h3{
+  color: rgb(26, 26, 26);
+  text-align: justify;
+  margin-bottom: 0.8em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+p{
+  color: rgb(109, 109, 109);
+}

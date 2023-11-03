@@ -1,0 +1,45 @@
+
+#article-aside-main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  padding: 10px 30px;
+}
+
+#article-aside-main::-webkit-scrollbar{
+  width: 10px;
+}
+
+#article-aside-main::-webkit-scrollbar-track {
+  background: rgb(109, 109, 109);        /* color of the tracking area */
+  border-radius: 8px;
+}
+
+#article-aside-main::-webkit-scrollbar-thumb {
+  background-color: red;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+
+.article-aside{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  margin-bottom: 2em;
+}
+
+.article-aside h3{
+  color: black;
+  margin-bottom: 1em;
+  text-shadow: 1px 1px 2px rgb(193, 193, 193);
+}
+
+.article-aside article {
+  color: rgb(193 , 193, 193);
+  margin-bottom: 0.5em;
+}
+
+.info-data-article-aside{
+  color: rgb(109, 109, 109);
+}

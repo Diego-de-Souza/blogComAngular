@@ -1,0 +1,39 @@
+
+#noticy-article-main{
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  background-color: #fff;
+
+  width: 90%;
+  padding: 0.5em 1em 0.5em 0;
+  border-bottom: 8px solid black;
+}
+
+.noticy-article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 1em;
+  width: 35%;
+}
+
+.noticy-article img {
+  display: block;
+  height: 3rem;
+  width: 3rem;
+  object-fit:cover;
+}
+
+.noticy-article-text {
+  margin-left: 0.5em;
+}
+
+.noticy-article-text p {
+  margin-bottom: 0.6em;
+  color: rgb(109, 109, 109);
+}
+
+.noticy-article-text article{
+  font-size: 1.5em;
+}
